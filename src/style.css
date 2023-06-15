@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+/* ========================= MENU ================================ */
+ul
+{
+    text-decoration: none;
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    font-family: 'Libre Baskerville', serif;
+}
+.logo h1
+{
+    font-family: 'Libre Baskerville', serif;
+}
+li a{
+    color: black;
+}
+ul li
+{
+    cursor: context-menu;
+    color: maroon;
+}
+/* ========================== news.js  ================================ */
+.main-box
+{
+    height: 650px;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.main-img
+{
+    height: 300px;
+    width: auto;
+}
+.main-img img
+{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    border-radius: 15px;
+}
+.date
+{
+    justify-content: space-between;
+    padding: 10px;
+}
+.more-btn button a
+{
+    transition: 0.3s;
+}
+button a
+{
+    color: white;
+}
+.more-btn button:hover
+{
+    color: blue;
+    background-color: white;
+}   
+
